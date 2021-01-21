@@ -20,9 +20,7 @@ function App() {
 	};
 
 	const removeItem = index => {
-		// add the given item to the cart
-		// setCart([...cart,item]);
-		const temp = [...cart]// splice out index
+		const temp = [...cart]
 		temp.splice(index, 1);
 		setCart(temp);
 	};
